@@ -14,5 +14,27 @@ Note the IP address used by the server/substation (here 172.17.0.2) and open ano
 to run the central instance:
 
 ```
-docker run -it -e srv_addr=172.17.0.2 iec104central:0.1
+> docker run -it -e srv_addr=172.17.0.2 iec104central:0.1
+running openmuc IEC 60870-5-104 console client connecting to 172.17.0.2
+successfully connected
+
+------------------------------------------------------
+ i - interrogation C_IC_NA_1
+ c - synchronize clocks C_CS_NA_1
+ h - print help message
+ q - quit the application
+------------------------------------------------------
+
+** Enter action key:
+i
+** Sending general interrogation command.
+
+Received ASDU:
+Type ID: 100, C_IC_NA_1, Interrogation command
+Cause of transmission: ACTIVATION_CON, test: false, negative con: false
+Originator address: 0, Common address: 1
+IOA: 0
+Qualifier of interrogation: 20
+...
 ```
+
