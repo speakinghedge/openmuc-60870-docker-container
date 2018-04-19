@@ -1,0 +1,3 @@
+from openmuc-j60870:0.1
+
+CMD echo "running IEC60870-5-104 sample server on address..." && ip -o -4 a && ./j60870/run-scripts/j60870-sample-server

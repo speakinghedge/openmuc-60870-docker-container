@@ -1,0 +1,4 @@
+from openmuc-j60870:0.1
+
+CMD echo "XXX running openmuc IEC 60870-5-104 console client connecting to ${srv_addr}" && ./j60870/run-scripts/j60870-console-client -h "${srv_addr}"
+
