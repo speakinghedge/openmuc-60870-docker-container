@@ -1,3 +1,9 @@
+# about
+
+This repo contains a dockerized openmuc j60870.
+
+See https://www.openmuc.org/iec-60870-5-104/ for more information.
+
 # build & run
 
 ```
